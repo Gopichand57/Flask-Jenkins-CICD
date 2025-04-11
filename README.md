@@ -32,6 +32,6 @@ This project demonstrates a basic CI/CD pipeline using **Jenkins** and **Docker*
 git clone https://github.com/Gopichand57/Flask-Jenkins-CICD.git
 cd Flask-Jenkins-CICD
 docker build -t flask-jenkins-app .
-docker run -d -p 5000:5000 flask-jenkins-app
+docker run -d -p 8080:8080 flask-jenkins-app
 
 
